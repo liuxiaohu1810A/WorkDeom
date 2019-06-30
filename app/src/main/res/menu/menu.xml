@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/item"
+      android:title="线性"></item>
+    <item android:id="@+id/item2"
+        android:title="网格"></item>
+    <item android:id="@+id/item3"
+        android:title="瀑布流"></item>
+</menu>

@@ -1,0 +1,1 @@
+include ':app', ':weeks', ':week2', ':week3', ':singleton', ':singleton2'

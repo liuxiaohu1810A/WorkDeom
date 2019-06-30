@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+       <ImageView
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:id="@+id/iv_tu"
+           android:scaleType="fitXY"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="sadas"
+           android:layout_toRightOf="@id/iv_tu"
+           android:id="@+id/tv_title"/>
+
+       <TextView
+           android:id="@+id/tv_name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="70dp"
+           android:layout_toRightOf="@id/iv_tu"
+           android:text="sadas" />
+       <TextView
+           android:id="@+id/tv_time"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="70dp"
+           android:text="sadas"
+           android:layout_alignParentRight="true"/>
+</RelativeLayout>
